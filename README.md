@@ -1,5 +1,4 @@
-# Mastermind
-Mastermind-Lotto (erstellt von Isabelle Veitl und Anna Weber)
+# Mastermind-Lotto (erstellt von Isabelle Veitl und Anna Weber)
 
 Für das Spiel sind die 3 Dateien model.py, view.py, main.py nötig.
 Zum Starten führe main.py aus.
@@ -17,5 +16,5 @@ Die Spielanleitung und -regeln werden dir auch direkt in der Spieloberfläche an
 
 
 
-Viele online verfügbare Codebeispiele geben tlw. falsches Feedback, weil sie nicht berücksichtigen, dass wenn eine Farbe in der Lösung öfter vorkommt als 
+Anmerkung: Die nachträgliche Recherche hat ergeben, dass viele online verfügbare Codebeispiele geben tlw. falsches Feedback. Sie berücksichtigen nicht, wenn eine Farbe in der Lösung öfter vorkommt als im Rateversuch (bzw. umgekehrt), dass das Feedback entsprechend nicht zu oft pro Farbe gezählt werden darf.
 
