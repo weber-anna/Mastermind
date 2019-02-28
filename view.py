@@ -1,6 +1,7 @@
 import model as m
 import os
 
+## Startbildschirm mit Spielregeln
 def rules():
     print("""\n---------------------------------------\nSPIELREGELN FÜR DAS MASTERMIND: \n---------------------------------------\n
     Ziel des Spiels ist es, eine zufällig generierte 4-stellige Zahlenkombination aus den Zahlen 1-6 zu erraten. \n
@@ -16,7 +17,7 @@ def rules():
     else:
         rules()
 
-
+## Funktion zum Spielstart und -ablauf
 def start_game():
     m.random_combination()
 
@@ -35,7 +36,7 @@ def start_game():
         print_seperator()
         print("Woohoo! Gewonnen! Die richtige Lösung ist {} \n".format(m.random_list))
 
-
+## Funktion zum Darstellen des Spielbretts inkls Rateversuche und Feedback
 def print_gameboard():
     print("\n    M A S T E R M I N D - L O T T O\n")
     print_seperator()
@@ -44,6 +45,7 @@ def print_gameboard():
     for m.current_guess in m.all_guess:
         print_turn()
 
+## Funktion zum Druck der Trennlinien
 def print_seperator():
     print( " +" + (("-")*4) + "||" + (("-")*3) + "+" + (("-")*3) + "+" +
                 (("-")*3) + "+" + (("-")*3) + "||" + (("-") * 7) + "+" + (("-") * 7) + "+ ")
@@ -51,11 +53,4 @@ def print_seperator():
 def print_turn():
     print(" |" +"{:^4}||{:^3}|{:^3}|{:^3}|{:^3}||{:^7}|{:^7}|".format((m.all_guess.index(m.current_guess)+1), m.current_guess[0], m.current_guess[1],
                                                      m.current_guess[2], m.current_guess[3],m.all_red_counts[m.all_guess.index(m.current_guess)], m.all_white_counts[m.all_guess.index(m.current_guess)]))
-
-
-
-#print_gameboard()
-
-
-
 
