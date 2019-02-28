@@ -14,7 +14,7 @@ Ziel des Spiels ist es, eine zufällig generierte 4-stellige Zahlenkombination a
 Die Spielanleitung und -regeln werden dir auch direkt in der Spieloberfläche angezeigt.
 
 
-![Win Screenshot](Mastermind_WinScreenshot.png "Win Screenshot")
+![Win Screenshot](Mastermind_WinScreenshot.PNG "Win Screenshot")
 
 Anmerkung: Die nachträgliche Recherche hat ergeben, dass viele online verfügbare Codebeispiele geben tlw. falsches Feedback. Sie berücksichtigen nicht, wenn eine Farbe in der Lösung öfter vorkommt als im Rateversuch (bzw. umgekehrt), dass das Feedback entsprechend nicht zu oft pro Farbe gezählt werden darf.
 
