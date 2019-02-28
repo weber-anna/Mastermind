@@ -13,3 +13,9 @@ Ziel des Spiels ist es, eine zufällig generierte 4-stellige Zahlenkombination a
   korrekten Eingabe auf.
     
 Die Spielanleitung und -regeln werden dir auch direkt in der Spieloberfläche angezeigt.
+
+
+
+
+Viele online verfügbare Codebeispiele geben tlw. falsches Feedback, weil sie nicht berücksichtigen, dass wenn eine Farbe in der Lösung öfter vorkommt als 
+
