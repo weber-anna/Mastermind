@@ -8,16 +8,10 @@ def random_combination():
      for number in range(4):
          random_list.append(random.randint(1,6))
 
-
-#random_combination()
-#print(random_list)
-
-##input
-
 all_guess=[]
 current_guess = []
 
-
+## Definieren der Funktion für die Benutzereingabe und deren Überprüfung
 def user_guess(number=0):
     global current_guess
     current_guess = []
@@ -44,6 +38,7 @@ def user_guess(number=0):
         all_guess.append(current_guess)
 
 
+## Definieren der Funktion, die den Status wiedergibt
 def check_winner():
     if current_guess != random_list and len(all_guess)<10:
         return "Rate weiter"
@@ -52,6 +47,9 @@ def check_winner():
     else:
         return "winner"
 
+
+## Definieren der Funktion, die die aktuelle Benutzereingabe mit der Lösung vergleicht
+## und das Feedback dabei erzeugt
 all_red_counts=[]
 all_white_counts=[]
 
@@ -85,9 +83,4 @@ def check_userguess():
 
     all_red_counts.append(red_count)
     all_white_counts.append(white_count)
-
-
-# print(check_winner())
-# print(all_guess)
-#check_userguess()
 
