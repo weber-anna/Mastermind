@@ -22,5 +22,5 @@ Beispiel-Screenshot in Gewinnsituation:
 
 
 
-Anmerkung: Die nachträgliche Recherche hat ergeben, dass viele online verfügbare Codebeispiele geben tlw. falsches Feedback. Sie berücksichtigen nicht, wenn eine Farbe in der Lösung öfter vorkommt als im Rateversuch (bzw. umgekehrt), dass das Feedback entsprechend nicht zu oft pro Farbe gezählt werden darf.
+Anmerkung: Die nachträgliche Recherche (bzw. der Vergleich von Lösungen) hat ergeben, dass viele online verfügbare Codebeispiele tlw. falsches Feedback geben. Sie berücksichtigen in ihrem Feedback nicht, ob eine Farbe in der Lösung öfter vorkommt als im Rateversuch (bzw. umgekehrt). Das Feedback enthält deshalb tlw. eine falsche Anzahl an roten bzw. weißen Wertungen.
 
